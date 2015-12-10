@@ -1,0 +1,15 @@
+call del *.$$$
+call del *.bak
+call del *.lst
+call del *.tmp
+call del *.~gm
+call del *.log
+call del *.~??
+call del *.gdx
+call del *.lxi
+call del *.gch
+call del *.g00
+call del *.scr
+call del *.list
+call del *.gdx
+call del *.dat

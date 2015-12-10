@@ -1,0 +1,89 @@
+
+--- Job Production_CD.gms Start 11/09/15 13:32:06 WEX-WEI 23.5.2 x86_64/MS Windows     
+GAMS Rev 235  Copyright (C) 1987-2010 GAMS Development. All rights reserved
+Licensee: School of Management and Languages             G130926:0737AO-WIN
+          Heriot-Watt University                                     DC8559
+          License for teaching and research at degree granting institutions
+--- Starting compilation
+--- Production_CD.gms(102) 3 Mb
+--- Starting execution: elapsed 0:00:00.011
+--- Production_CD.gms(94) 4 Mb
+--- Generating NLP model PRODCD
+--- Production_CD.gms(97) 6 Mb
+---   16 rows  25 columns  46 non-zeroes
+---   190 nl-code  30 nl-non-zeroes
+--- Production_CD.gms(97) 4 Mb
+--- Executing CONOPT2: elapsed 0:00:00.041
+--- Production_CD.gms(97) 4 Mb
+C O N O P T 2    Aug 18, 2010 23.5.2 WIN 19143.19383 VS8 x86/MS Windows    
+ 
+ 
+    C O N O P T 2   version 2.071K
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ Using default control program.
+ 
+ Reading data
+ 
+   Iter Phase Ninf   Infeasibility   RGmax   NSB   Step Slpit MX OK
+      0   0        1.0000000000E+00 (Input point)
+                                Pre-triangular equations:       16
+                                Post-triangular equations:       0
+      1   0        0.0000000000E+00 (After pre-processing)
+      2   0        0.0000000000E+00 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    1.00000000000
+ 
+   Iter Phase Ninf     Objective     RGmax   NSB   Step SlpIt MX OK
+      3   3        1.0000000000E+00 0.0E+00    0
+ 
+ ** Optimal solution. There are no superbasic variables.
+ 
+--- Restarting execution
+--- Production_CD.gms(97) 2 Mb
+--- Reading solution for model PRODCD
+--- Production_CD.gms(97) 2 Mb
+--- Executing after solve: elapsed 0:00:00.214
+--- Production_CD.gms(99) 3 Mb
+--- Generating NLP model PRODCD
+--- Production_CD.gms(102) 5 Mb
+---   16 rows  25 columns  46 non-zeroes
+---   190 nl-code  30 nl-non-zeroes
+--- Production_CD.gms(102) 3 Mb
+--- Executing CONOPT2: elapsed 0:00:00.243
+--- Production_CD.gms(102) 3 Mb
+C O N O P T 2    Aug 18, 2010 23.5.2 WIN 19143.19383 VS8 x86/MS Windows    
+ 
+ 
+    C O N O P T 2   version 2.071K
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ Using default control program.
+ 
+ Reading data
+ 
+   Iter Phase Ninf   Infeasibility   RGmax   NSB   Step Slpit MX OK
+      0   0        3.7500000000E+01 (Input point)
+                                Pre-triangular equations:       16
+                                Post-triangular equations:       0
+      1   0        0.0000000000E+00 (After pre-processing)
+      2   0        0.0000000000E+00 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    1.00000000000
+ 
+   Iter Phase Ninf     Objective     RGmax   NSB   Step SlpIt MX OK
+      3   3        1.0000000000E+00 0.0E+00    0
+ 
+ ** Optimal solution. There are no superbasic variables.
+ 
+--- Restarting execution
+--- Production_CD.gms(102) 2 Mb
+--- Reading solution for model PRODCD
+--- Production_CD.gms(102) 2 Mb
+--- GDX File C:\Users\Gioele\Desktop\GAMS Monday\GAMS\RESULT.GDX
+*** Status: Normal completion
+--- Job Production_CD.gms Stop 11/09/15 13:32:06 elapsed 0:00:00.441
